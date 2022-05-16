@@ -26,5 +26,12 @@
       "params": [],
       "result": 0
     }
+  },
+  {
+    "id": 5,
+    "data": {
+      "params": [],
+      "result": "0"
+    }
   }
 ]
