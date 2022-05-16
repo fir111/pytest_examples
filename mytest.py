@@ -24,3 +24,8 @@ class TestSampleWithScenarios:
         assert isinstance(params, list), "Params type is not list"
         assert isinstance(result, int), "Result is not empty"  # Adding extra assertion to an existing scenario
 
+    def test_check_multiplication(self, params, result):  # Test 3: Add new step definition to an existing scenario
+        if not params:
+            assert 0 == result, "Multiplication result is not true"
+        else:
+            assert params[0]*params[1] == result, "Multiplication result is not true"
